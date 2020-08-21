@@ -248,7 +248,8 @@ class GreeterService {
     private DateService dateService; // constructor omitted
 
     String getGreetings() {
-        if (dateService.getCurrentTime().getHour() > 21 && dateService.getCurrentTime().getHour() < 6) {
+        if (dateService.getCurrentTime().getHour() > 21 &&
+                dateService.getCurrentTime().getHour() < 6) {
             return "Good night";
         } else {
             return "Good day";
