@@ -271,7 +271,10 @@ DateService dateService = new DateService() {
         return new Date(0L);
     }
 };
-assertEquals(new GreeterService(dateService).getGreetings(), "Good night");
+assertEquals(
+    new GreeterService(dateService).getGreetings(),
+    "Good night"
+);
 
 ```
 
