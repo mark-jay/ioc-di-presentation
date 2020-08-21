@@ -226,8 +226,14 @@ class GreeterService {
 }
 
 // tests
-assertEquals(new GreeterService().getGreetings(new Date(0L)), "Good night");
-assertEquals(new GreeterService().getGreetings(new Date(7*60*60*1000)), "Good day");
+assertEquals(
+  new GreeterService().getGreetings(new Date(0L)),
+  "Good night"
+);
+assertEquals(
+  new GreeterService().getGreetings(new Date(7*60*60*1000)),
+  "Good day"
+);
 ```
 
 ---
