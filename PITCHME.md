@@ -7,7 +7,7 @@
 
 ---
 
-## План.
+## План
 
 ```text
 1. Inversion of Control(IoC)
@@ -19,7 +19,7 @@
 
 ---
 
-### 1. IoC.
+### 1. IoC
 
 ```text
 - Код реюз: библиотеки
@@ -27,7 +27,7 @@
 
 ---
 
-### 1. IoC.
+### 1. IoC
 
 ```text
 - Код реюз: библиотеки или фреймворки?
@@ -66,7 +66,7 @@ public StringResponse createNew(
 
 ---
 
-### 1. Примеры реализации принципа IoC.
+### 1. Примеры реализации принципа IoC
 
 ```text
 - strategy pattern
@@ -76,7 +76,7 @@ public StringResponse createNew(
 
 ---
 
-### 2. Dependency injection.
+### 2. Dependency injection
 
 ```text
 Dependency injection - это буква D в SOLID.
@@ -84,7 +84,7 @@ Dependency injection - это буква D в SOLID.
 
 ---
 
-### 2. Dependency injection.
+### 2. Dependency injection
 
 ```text
 Dependency? injection?
@@ -92,7 +92,7 @@ Dependency? injection?
 
 ---
 
-### 2. Dependency injection.
+### 2. Dependency injection
 
 Пример:
 ```
