@@ -41,7 +41,7 @@
 Использование библиотеки выглядит как-то так:
 ```
 
-```
+```java
 ...
 String defaultString = org.apache.commons.lang3.StringUtils.defaultString(myString, "");
 ...
@@ -55,7 +55,7 @@ String defaultString = org.apache.commons.lang3.StringUtils.defaultString(myStri
 Использование фреймворка выглядит как-то так:
 ```
 
-```
+```java
 @OAuthFilter
 @Produces(MediaType.APPLICATION_JSON)
 @POST
@@ -194,7 +194,7 @@ class HelloServiceUtils {
  - Реализовать метод getGreetings в зависимости от времени суток
  ```
 
-```
+```java
 class GreeterService {
 
     String getGreetings() {
@@ -212,7 +212,7 @@ class GreeterService {
 
 ### 4. DI в юнит тестах
 
-```
+```java
 class GreeterService {
 
     String getGreetings(Date currentTime) {
@@ -235,7 +235,7 @@ test {
 
 ### 4. DI в юнит тестах
 
-```
+```java
 class DateService() {
     Date getCurrentTime() { return new Date(); }
 }
@@ -258,7 +258,7 @@ class GreeterService {
 
 ### 4. DI в юнит тестах
 
-```
+```java
 test {
     DateService dateService = new DateService() {
         @Override Date getCurrentTime() {
