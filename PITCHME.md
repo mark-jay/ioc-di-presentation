@@ -61,7 +61,7 @@ String defaultString = org.apache.commons.lang3.StringUtils.defaultString(myStri
 @POST
 @Path("new")
 public StringResponse createNew(
-      @Required(label = "amount") @FormParam("amount") BigDecimal amount
+      @Required(label="amount") @FormParam("amount") BigDecimal amount
     ) {
     dao.persist(amount...);
     return new StringResponse("Done");
