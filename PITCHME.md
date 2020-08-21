@@ -192,7 +192,7 @@ class HelloServiceUtils {
 ```text
 Задача:
  - Реализовать метод getGreetings в зависимости от времени суток
- ```
+```
 
 ```java
 class GreeterService {
