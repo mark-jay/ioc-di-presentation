@@ -51,7 +51,9 @@ String defaultString = org.apache.commons.lang3.StringUtils.defaultString(myStri
 
 ### 1. IoC. Пример работы с фреймворком
 
+```text
 Использование фреймворка выглядит как-то так:
+```
 
 ```
 @OAuthFilter
@@ -96,8 +98,10 @@ Dependency? injection?
 
 ### 2. Dependency injection
 
+```text
 Пример:
 ```
+```java
 class A {
 
     @Autowired
@@ -121,8 +125,10 @@ class A {
 
 ### 3. IoC контейнеры
 
+```text
 Пример DI без IoC контейнеров:
 ```
+```java
 new HelloWorldController(
     new HelloWorldService(
         new HelloDao(),
@@ -134,8 +140,10 @@ new HelloWorldController(
 
 ### 3. IoC контейнеры
 
+```text
 Пример DI без IoC контейнеров:
 ```
+```java
 dataSource = new DataSource(new DefaultDataSourceConfig())
 new HelloWorldController(
     new HelloWorldService(
@@ -161,9 +169,11 @@ new HelloWorldController(
 
 ### 3. IoC контейнеры
 
+```text
 Почему не static методы:
-
 ```
+
+```java
 class HelloServiceUtils {
 
     private HelloServiceUtils() {}
@@ -179,8 +189,10 @@ class HelloServiceUtils {
 
 ### 4. DI в юнит тестах
 
+```text
 Задача:
  - Реализовать метод getGreetings в зависимости от времени суток
+ ```
 
 ```
 class GreeterService {
