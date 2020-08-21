@@ -265,14 +265,13 @@ class GreeterService {
 ### 4. DI в юнит тестах
 
 ```java
-test {
-    DateService dateService = new DateService() {
-        @Override Date getCurrentTime() {
-            return new Date(0L);
-        }
-    };
-    assertEquals(new GreeterService(dateService).getGreetings(), "Good night");
-}
+// tests
+DateService dateService = new DateService() {
+    @Override Date getCurrentTime() {
+        return new Date(0L);
+    }
+};
+assertEquals(new GreeterService(dateService).getGreetings(), "Good night");
 
 ```
 
