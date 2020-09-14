@@ -74,7 +74,7 @@ public StringResponse createNew(
 ### 1. IoC. Определение
 
 ```text
-Инверсия контроля - принцип при котором контроль управления программой
+Инверсия контроля - принцип при котором контроль выполнения программы
 остается за фреймворком
 ```
 
@@ -82,7 +82,7 @@ public StringResponse createNew(
 
 ### 1. IoC. Примеры реализации принципа IoC
 
-```text
+```text1
 - strategy pattern
 - template pattern
 - dependency injection
