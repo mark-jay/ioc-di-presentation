@@ -82,7 +82,7 @@ public StringResponse createNew(
 
 ### 1. IoC. Примеры реализации принципа IoC
 
-```plaintext
+```sql
 - strategy pattern
 - template pattern
 - dependency injection
