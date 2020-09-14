@@ -43,7 +43,8 @@
 
 ```java
 ...
-String defaultString = org.apache.commons.lang3.StringUtils.defaultString(myString, "");
+String defaultString =
+  org.apache.commons.lang3.StringUtils.defaultString(myString, "");
 ...
 ```
 
